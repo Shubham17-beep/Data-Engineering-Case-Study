@@ -1,15 +1,19 @@
 -Data Ingestion:
+
   Real-time Data Ingestion: Use tools like Apache Kafka or Amazon Kinesis to ingest real-time ad impressions, clicks/conversions, and bid requests data streams.
   Batch Data Ingestion: Implement batch ingestion pipelines using tools like Apache Spark or Apache Airflow to process historical data from files or databases.
 -Data Processing:
+
   Standardization and Enrichment: Develop data transformation pipelines using Apache Spark or Python libraries like Pandas to standardize and enrich the data across different formats.
   Data Validation and Deduplication: Implement validation checks to ensure data integrity and deduplication mechanisms to remove duplicate records.
   Correlation Logic: Use data matching algorithms to correlate ad impressions with clicks and conversions based on common identifiers like user IDs or ad campaign IDs.
 -Data Storage and Query Performance:
+
   Data Storage Solution: Choose a storage solution like Apache Hadoop (HDFS), Amazon S3, or Google Cloud Storage to store processed data efficiently.
   Data Warehousing: Utilize data warehousing solutions like Amazon Redshift, Google BigQuery, or Snowflake for fast querying and analytical processing of ad campaign data.
   Data Partitioning and Indexing: Optimize data storage by partitioning data based on relevant attributes (e.g., timestamp, campaign ID) and creating appropriate indexes for faster query performance.
 -Error Handling and Monitoring:
+
   Data Anomaly Detection: Implement anomaly detection algorithms or use monitoring tools like Prometheus or Datadog to detect data anomalies, discrepancies, or delays.
   Alerting Mechanisms: Set up alerting mechanisms using tools like PagerDuty or Slack to notify stakeholders about data quality issues in real-time.
   Logging and Auditing: Maintain detailed logs of data processing pipelines and establish auditing mechanisms to track changes and ensure compliance with data quality standards.
